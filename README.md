@@ -6,17 +6,12 @@ Node.js client library for the Syntia API. Provides SDK and CLI for generating h
 
 ```bash
 npm install syntia
-# or
-npm install @syntia/client
 ```
-
-Both packages are identical. Use whichever you prefer.
 
 ## SDK Usage
 
 ```javascript
 const SyntiaClient = require('syntia')
-// or: const SyntiaClient = require('@syntia/client');
 
 const client = new SyntiaClient('YOUR_API_KEY')
 
@@ -68,8 +63,6 @@ Wrap API calls in try-catch blocks or use `.catch()` with promises to handle err
 
 ```typescript
 import { SyntiaClient, WebhookOptions, Webhook } from 'syntia'
-// or
-import { SyntiaClient, WebhookOptions, Webhook } from '@syntia/client'
 ```
 
 ## Documentation
