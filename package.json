@@ -1,0 +1,36 @@
+{
+  "name": "syntia",
+  "version": "0.1.0",
+  "description": "Client library for Syntia API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "publish-packages": "node scripts/publish.js"
+  },
+  "keywords": [
+    "syntia",
+    "api",
+    "client"
+  ],
+  "author": "Syntia Ltd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syntia-tech/client.git"
+  },
+  "homepage": "https://github.com/syntia-tech/client#readme",
+  "bugs": {
+    "url": "https://github.com/syntia-tech/client/issues"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63",
+    "dotenv": "^16.4.5",
+    "typescript": "^4.9.5"
+  },
+  "type": "module"
+}
